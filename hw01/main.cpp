@@ -17,7 +17,7 @@ int main() {
 
     printf("%i by %i\n", COLS, LINES);
 
-    while(1){
+    while(true){
         input = wgetch(stdscr);
         switch(input){
             case KEY_UP:
